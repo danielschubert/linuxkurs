@@ -1,0 +1,25 @@
+- USB Stick mit Debian 9
+
+
+- Installieren 
+
+= GNOME
+- Erste Schritte mit Gnome
+- Dateisystem 
+- Repositories
+- Synaptic
+- Update / Upgrade
+- Installieren von Thunderbird
+- Installieren von Chrome ( deb Paket von Webseite )
+
+
+= bash
+- einfache Befehle - ls mv cp pwd 
+- apt-get update / upgrade
+- TN installieren VIM mit apt-get
+- TN üben mit VIM
+	- Modes 
+	- Speichern
+	- Verlassen 
+
+

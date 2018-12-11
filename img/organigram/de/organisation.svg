@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+<!-- CreationDate: Fri Sep  4 17:16:07 2009 -->
+<!-- Magnification: 1.050 -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="806.45642"
+   height="517.80414"
+   viewBox="1026 1593 10844 7395"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="organisation.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   style="display:inline">
+  <metadata
+     id="metadata161">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs159">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 258.90207 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="806.45642 : 258.90207 : 1"
+       inkscape:persp3d-origin="403.22821 : 172.60138 : 1"
+       id="perspective79" />
+    <marker
+       inkscape:stockid="EmptyDiamondL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyDiamondL"
+       style="overflow:visible">
+      <path
+         id="path3874"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path3794"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="480"
+     inkscape:window-width="640"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="0.83327503"
+     inkscape:cx="367.90955"
+     inkscape:cy="316.39188"
+     inkscape:current-layer="layer2"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     borderlayer="false"
+     inkscape:showpageshadow="true"
+     showborder="true"
+     inkscape:snap-global="false" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="users"
+     style="display:inline"
+     transform="translate(-8.9970808,-46.652636)"
+     sodipodi:insensitive="true">
+    <rect
+       id="rect8"
+       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:8.11960793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       rx="113.15108"
+       height="6802.8862"
+       width="10788.44"
+       y="1891.6862"
+       x="1039.0569" />
+    <text
+       style="font-size:152px;font-style:normal;font-weight:bold;text-align:end;text-anchor:end;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text96"
+       font-size="152"
+       font-weight="bold"
+       font-style="normal"
+       y="2067.5281"
+       x="11711.283"
+       xml:space="preserve">Benutzer</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="developers"
+     style="display:inline"
+     transform="translate(-8.9970808,-46.652636)"
+     sodipodi:insensitive="true">
+    <rect
+       id="rect6"
+       style="fill:#eaeaea;fill-opacity:1;stroke:#000000;stroke-width:8.00581741;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
+       rx="110"
+       height="6425"
+       width="9354"
+       y="2080.6292"
+       x="1228" />
+    <text
+       style="font-size:152px;font-style:normal;font-weight:bold;text-anchor:end;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text92"
+       font-size="152"
+       font-weight="bold"
+       font-style="normal"
+       y="2283.3032"
+       x="10488"
+       xml:space="preserve">Entwickler</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="officers"
+     style="display:inline"
+     transform="translate(-8.9970808,-46.652636)"
+     sodipodi:insensitive="true">
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text14"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="2399.6956"
+       x="7205.0444"
+       xml:space="preserve">wählen</text>
+    <rect
+       id="rect26"
+       style="font-size:143.06047058px;fill:#f8f8f8;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="110"
+       height="1795"
+       width="8976"
+       y="2552.6292"
+       x="1417" />
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:bold;text-anchor:end;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text72"
+       font-size="152"
+       font-weight="bold"
+       font-style="normal"
+       y="2729.5276"
+       x="10299"
+       xml:space="preserve">Projektverantwortliche</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text74"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="3283.1262"
+       x="3401.5662"
+       xml:space="preserve">ernennen</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text76"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="3283.1262"
+       x="8405.8887"
+       xml:space="preserve">ernennen</text>
+    <rect
+       id="rect20"
+       style="font-size:143.06047058px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="0"
+       height="472"
+       width="2362"
+       y="2788.6292"
+       x="4724" />
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text66"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="3072.9121"
+       x="5899.4497"
+       xml:space="preserve">Projektführer</text>
+    <rect
+       id="rect22"
+       style="font-size:143.06047058px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="0"
+       height="472"
+       width="2362"
+       y="3639.6292"
+       x="1889" />
+    <rect
+       id="rect24"
+       style="font-size:143.06047058px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="0"
+       height="472"
+       width="2362"
+       y="3639.6292"
+       x="7559" />
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text70"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="3923.9124"
+       x="8734.2617"
+       xml:space="preserve">Projektsekretär</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text68"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="3905.386"
+       x="3061.0811"
+       xml:space="preserve">Technisches Kommittee</text>
+    <path
+       style="font-size:143.06047058px;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:13.3876543;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:26.77530864, 53.55061728;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 9657.9202,2230.2249 C 7217.4191,2230.2249 6628.3326,2735.1562 6628.3326,2735.1562"
+       id="path3762"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-size:143.06047058px;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:13.3876543;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:26.77530864, 53.55061728;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 7099.9283,3011.6661 C 8037.6578,3011.6661 8626.7443,3588.7304 8626.7443,3588.7304"
+       id="path5594"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="font-size:143.06047058px;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:13.3876543;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:26.77530864, 53.55061728;stroke-dashoffset:0;stroke-opacity:1;display:inline"
+       d="M 4694.9931,3011.6661 C 3757.2636,3011.6661 3168.1771,3588.7304 3168.1771,3588.7304"
+       id="path6123"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="delegates"
+     transform="translate(-8.9970808,-46.652636)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text94"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="4091.6218"
+       x="5161.2393"
+       xml:space="preserve">anerkennen/ernennen</text>
+    <rect
+       id="rect56"
+       style="font-size:143.06047058px;fill:#f9f9f9;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="110"
+       height="3826"
+       width="3779"
+       y="4489.6294"
+       x="1417" />
+    <rect
+       id="rect44"
+       style="font-size:143.06047058px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="0"
+       height="472"
+       width="2362"
+       y="4820.6294"
+       x="1606" />
+    <rect
+       id="rect46"
+       style="font-size:143.06047058px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="0"
+       height="472"
+       width="2362"
+       y="5387.6294"
+       x="1606" />
+    <rect
+       id="rect48"
+       style="font-size:143.06047058px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="0"
+       height="472"
+       width="2362"
+       y="5954.6294"
+       x="1606" />
+    <rect
+       id="rect50"
+       style="font-size:143.06047058px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="0"
+       height="472"
+       width="2362"
+       y="6521.6294"
+       x="1606" />
+    <rect
+       id="rect52"
+       style="font-size:143.06047058px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="0"
+       height="472"
+       width="2362"
+       y="7088.6294"
+       x="1606" />
+    <rect
+       id="rect54"
+       style="font-size:143.06047058px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="0"
+       height="472"
+       width="2362"
+       y="7655.6294"
+       x="1606" />
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text78"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="5109.9907"
+       x="2777.9324"
+       xml:space="preserve">Release Team</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text80"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="5680.2812"
+       x="2771.5596"
+       xml:space="preserve">FTP Masters</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text82"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="6234.0483"
+       x="2792.5962"
+       xml:space="preserve">Sicherheitsteam</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text84"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="6814.2812"
+       x="2771.5596"
+       xml:space="preserve">Pressesprecher</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text86"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="7358.3203"
+       x="2776.9958"
+       xml:space="preserve">Administratoren</text>
+    <text
+       style="font-size:143.06047058px;font-style:italic;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text88"
+       font-size="152"
+       font-weight="normal"
+       font-style="italic"
+       y="7916.2358"
+       x="2799.3679"
+       xml:space="preserve">etc.</text>
+    <path
+       style="font-size:143.06047058px;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:13.3876543;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:26.77530864, 53.55061728;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 5366.0044,3252.1096 L 4861.0732,4454.3268"
+       id="path6125"
+       sodipodi:nodetypes="cc" />
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:bold;text-anchor:end;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text90"
+       font-size="152"
+       font-weight="bold"
+       font-style="normal"
+       y="4698.854"
+       x="5102"
+       xml:space="preserve">Delegierte</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="other"
+     style="display:inline"
+     transform="translate(-8.9970808,-46.652636)"
+     sodipodi:insensitive="true">
+    <rect
+       id="rect100"
+       style="font-size:143.06047058px;fill:#ffffff;stroke:#000000;stroke-width:8.5787878;stroke-linecap:butt;stroke-linejoin:miter"
+       rx="0"
+       height="471.4212"
+       width="4568.5298"
+       y="5945.4854"
+       x="7181.2896" />
+    <rect
+       id="rect102"
+       style="font-size:143.06047058px;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       rx="0"
+       height="472"
+       width="2740"
+       y="7655.6294"
+       x="4204" />
+    <rect
+       id="rect104"
+       style="font-size:143.06047058px;fill:#ffffff;stroke:#000000;stroke-width:8.5787878;stroke-linecap:butt;stroke-linejoin:miter"
+       rx="0"
+       height="471.4212"
+       width="4568.5298"
+       y="7651.2021"
+       x="7181.2896" />
+    <rect
+       id="rect106"
+       style="font-size:143.06047058px;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       rx="0"
+       height="472"
+       width="2740"
+       y="7088.6294"
+       x="4204" />
+    <rect
+       id="rect108"
+       style="font-size:143.06047058px;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       rx="0"
+       height="472"
+       width="2740"
+       y="6521.6294"
+       x="4204" />
+    <rect
+       id="rect110"
+       style="font-size:143.06047058px;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       rx="0"
+       height="472"
+       width="2740"
+       y="5954.6294"
+       x="4204" />
+    <rect
+       id="rect112"
+       style="font-size:143.06047058px;fill:#ffffff;stroke:#000000;stroke-width:8.5787878;stroke-linecap:butt;stroke-linejoin:miter"
+       rx="0"
+       height="471.4212"
+       width="4568.5298"
+       y="7084.2021"
+       x="7181.2896" />
+    <rect
+       id="rect114"
+       style="font-size:143.06047058px;fill:#ffffff;stroke:#000000;stroke-width:8.5787878;stroke-linecap:butt;stroke-linejoin:miter"
+       rx="0"
+       height="471.4212"
+       width="4568.5298"
+       y="6517.2021"
+       x="7181.2896" />
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text118"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="6216.0312"
+       x="9450.1143"
+       xml:space="preserve">Paketbetreuer / Portierer</text>
+    <text
+       style="font-size:143.06047058px;font-style:italic;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text120"
+       font-size="152"
+       font-weight="normal"
+       font-style="italic"
+       y="7916.2358"
+       x="5586.3682"
+       xml:space="preserve">etc.</text>
+    <text
+       style="font-size:143.06047058px;font-style:italic;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text122"
+       font-size="152"
+       font-weight="normal"
+       font-style="italic"
+       y="7911.519"
+       x="9477.9229"
+       xml:space="preserve">etc.</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text124"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="7361.9683"
+       x="5593.2583"
+       xml:space="preserve">CD Team</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text126"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="6792.4644"
+       x="5561.9932"
+       xml:space="preserve">Web/List/...masters</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text128"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="6237.8394"
+       x="5557.5103"
+       xml:space="preserve">Richtlinienkommittee</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text130"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="7362.6162"
+       x="9478.5957"
+       xml:space="preserve">Qualitätssicherung</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text132"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="6790.2515"
+       x="9450.1143"
+       xml:space="preserve">Dokumentation / Übersetzer</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="nm"
+     style="display:inline"
+     transform="translate(-8.9970808,-46.652636)"
+     sodipodi:insensitive="true">
+    <rect
+       id="rect116"
+       style="font-size:143.06047058px;fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter"
+       rx="0"
+       height="472"
+       width="6944"
+       y="4813.3257"
+       x="4204" />
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text148"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="5086.6646"
+       x="4440"
+       xml:space="preserve">DAM</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text150"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="5084.1611"
+       x="5905"
+       xml:space="preserve">NM team / Fürsprecher</text>
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text152"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="5079.9404"
+       x="10923.984"
+       xml:space="preserve">Antragsteller</text>
+    <path
+       style="font-size:143.06047058px;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:13.3876543;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:26.77530864, 53.55061728;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 10042.63,5049.1969 L 7554.0399,5049.1969"
+       id="path6673" />
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;stroke-width:0.025in;display:inline;font-family:'RotisSansSerif, Helvetica'"
+       id="text98"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="5649.6943"
+       x="7109.3945"
+       xml:space="preserve">anerkennen</text>
+    <path
+       style="font-size:143.06047058px;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:13.3876543;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyDiamondL);stroke-miterlimit:4;stroke-dasharray:26.77530864, 53.55061728;stroke-dashoffset:0;stroke-opacity:1;display:inline"
+       d="M 6648.0014,5165.6978 C 7617.6719,5699.6531 8066.6178,5586.4739 8066.6178,5586.4739"
+       id="path7202"
+       sodipodi:nodetypes="cc" />
+    <polyline
+       transform="translate(8.9928233e-7,-314.19214)"
+       id="polyline156"
+       style="font-size:143.06047058px;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:10, 31;display:inline"
+       points="5196,5149 5196,5574 " />
+    <text
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       id="text154"
+       font-size="152"
+       font-weight="normal"
+       font-style="normal"
+       y="4995.7749"
+       x="8681.0625"
+       xml:space="preserve">bewerben</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="spi"
+     style="display:inline"
+     transform="translate(-8.9970808,-46.652636)"
+     sodipodi:insensitive="true">
+    <rect
+       id="rect62"
+       style="font-size:143.06047058px;fill:#ffffff;stroke:#000000;stroke-width:4.72311926;stroke-linecap:butt;stroke-linejoin:miter;display:inline"
+       rx="102.24498"
+       height="495.74695"
+       width="2809.8779"
+       y="8321.7002"
+       x="8832.3613" />
+    <text
+       xml:space="preserve"
+       style="font-size:143.06047058px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;stroke-width:0.025in;font-family:'RotisSansSerif, Helvetica'"
+       x="10224.811"
+       y="8626.5977"
+       id="text8810"><tspan
+         sodipodi:role="line"
+         id="tspan8812"
+         x="10224.811"
+         y="8626.5977"
+         style="font-size:143.06047058px">Software in the Public Interest (SPI)</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:RotisSansSerif;-inkscape-font-specification:RotisSansSerif"
+     x="-405.20441"
+     y="5718.4839"
+     id="text2452"
+     sodipodi:linespacing="100%"><tspan
+       sodipodi:role="line"
+       id="tspan2454"
+       x="-405.20441"
+       y="5718.4839">5</tspan></text>
+</svg>

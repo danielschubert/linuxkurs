@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Einführung in Linux</title>
+
+		<meta name="description" content="Oder: wie ich lernte ">
+		<meta name="author" content="Daniel Schubert">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	</head>
+
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h1>LINUX</h1>
+					<h3>Das universelle Betriebssystem</h3>
+					<p>Eine Einführung - Teil 3
+					<p>
+						<small>Deutsche Angestellten Akademie</small>
+					</p>
+
+					<aside class="notes">
+						Frage: Fragen zur letzten Stunde?
+					</aside>
+				</section>
+				
+				<section>
+					Grundlegendes zum Systemaufbau
+				</section>
+
+				<section>Architektur des Linux Systems</section>
+
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h2>Das Dateisystem</h2>
+					bild vom verzeichnisbaum
+				</section>
+
+				<section>
+					<aside class="notes">
+						Frage: Fragen zur letzten Stunde?
+					</aside>
+					<h3>Basics / Unterschiede zu Windows</h3>	
+						<ul>
+							<li>/home/daniel/Dokumente/Wichtig.dez-2018.ods</li>
+							<li class="fragment ">Verzeichnistrenner ist „/“ 
+							<li class="fragment">Unterscheidung von gross / klein Schreibung: Datei.txt ≠ datei.txt
+							<li class="fragment">gültige Dateinamen:
+								<ul>
+									<li>datei0815.txt</li>
+									<li>WichtigerText</li>
+									<li>dies.darf_Nicht.weg</li>
+									<li>README</li>
+								</ul>
+							</li>
+						</ul>
+				</section>
+
+				<section>
+					<h3>Basics / Unterschiede zu Windows</h3>	
+					<ul>
+						<li>Datei-Endungen nicht vorgeschrieben</li>
+						<li>Keine Laufwerksbuchstaben</li>
+						<li>Laufwerke ( DVD, USB etc ) werden im Verzeichnisbaum „eingehängt”</li>
+						<li class="fragment ">Wurzelverzeichnis heisst „root directory“ oder „/“
+						<li class="fragment ">Benutzerverzeichnis ist „/home/username“
+					</ul>
+				</section>			
+
+				<section>
+					<h3>Alles ist eine Datei</h3>
+					<li><strong>Verzeichnisse</strong> (engl. directories)  »Ordner«
+					<li><strong>Symbolische Links</strong> ähnlich zu »Verknüpfungen« unter Windows.
+					<li><strong>Gerätedateien</strong> (engl. devices): Schnittstellen zu beliebigen Geräten wie Laufwerken. Die Datei /dev/fd0 ist das erste Diskettenlaufwerk.
+							<aside class="notes">
+						Frage: Fragen zur letzten Stunde?
+					</aside>
+				</section>
+
+				<section>
+					<h3>Spezielle Dateitypen</h3>
+					<li><strong>FIFOs</strong> Oft auch named pipes genannt. Direkte Kommunikation zwischen Programmen ohne Verwendung von Zwischendateien 
+					<li><strong>Unix-Domain-Sockets</strong> Ähnlich wie FIFOs Mittel zur Interprozesskommunikation. Quasi locales TCP/IP
+				</section>
+
+				<section>syslog</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

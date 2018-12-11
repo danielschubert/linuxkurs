@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Einführung in Linux - Kapitel 4</title>
+
+		<meta name="description" content="Oder: wie ich lernte ">
+		<meta name="author" content="Daniel Schubert">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	</head>
+
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h1>LINUX</h1>
+					<h3>Das universelle Betriebssystem</h3>
+					<p>Eine Einführung - Teil 4
+					<p>
+						<small>Deutsche Angestellten Akademie</small>
+					</p>
+					<aside class="notes">
+						Frage: Fragen zur letzten Stunde?
+					</aside>
+				</section>
+				
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h1>Die SHELL</h1>
+
+					Screenshoot Terminal
+				</section>
+
+				<section>
+					<h3>Die Anatomie des SHELL-Prompt</h3>
+
+					<p>
+						<pre class="fragment" style="background-color:#000">daniel@laptop ~$ <span class="fragment">ls</span></pre>
+
+					<p>
+						<span class="fragment">Username</span>
+						<span class="fragment">@Hostname</span>
+						<span class="fragment"> Verzeichnis</span>
+						<span class="fragment">$ Befehl</span>
+					</p>
+
+					<aside class="notes">
+						<ul>
+							<li>Das ist der prompt</li>
+							<li>erkläre Elemente : User - Hostname - Dir - Cursor</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>Die wichtigsten Befehle</section>
+				<section>Die man Pages</section>
+
+
+				<section>
+					<aside class="notes">
+						Frage: Fragen zur letzten Stunde?
+					</aside>
+				</section>
+
+				<section>
+					<h2>Debian: Packet und Rpository</h2>
+					<ul>
+						<li>Package management</li>
+						<li>Der Debian-Way zur Software Installatione ist das apt (Advanced Package Management ) -Toolset </li>
+						<li>Die apt tools nutzen die dpkg datenbank um zu erkennen was installiert ist und was fehlt.
+						</li>
+					</ul>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

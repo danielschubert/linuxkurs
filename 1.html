@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Einführung in Linux</title>
+
+		<meta name="description" content="Oder: wie ich lernte ">
+		<meta name="author" content="Daniel Schubert">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	</head>
+
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h1>LINUX</h1>
+					<h3>Das universelle Betriebssystem</h3>
+					<p>Eine Einführung - Teil 1
+					<p>
+						<small>Deutsche Angestellten Akademie</small>
+					</p>
+
+					<aside class="notes">
+						Fahrplan
+						<ul>
+							<li>historischer abriss</li>
+							<li>installation</li>
+						</ul>
+					</aside>
+				</section>
+				<section>
+					<h2>Über Mich</h2>
+					<ul style="list-style-type: none">
+						<li>Daniel Schubert, verheiratet, 1 Kind (7)</li>
+						<li>Webentwickler</li>
+						<li>Linux Serverbetreiber</li>
+						<li>Open Source Verfechter</li>
+					</ul>
+				</section>
+				<section>
+					<figure><img src="img/linux makes a man.jpg" style="height: 60vh"></figure>
+					<aside class="notes">
+						Vorstellungsrunde
+						Frage: Was wissen Sie über Linux?
+					</aside>
+				</section>
+
+				<section>
+					<h2>Was ist LINUX ??</h2>
+					<span class="fragment">
+						<ul>
+							<li><span class="fragment highlight-blue">Linux</span> ist ein modernes Multi-User und Multi-Task <span class="fragment highlight-red">Betriebssystem</span>
+							<li>Linux läuft auf fast <span class="fragment highlight-blue">jeder Hardware</span>
+							<li>Linux ist als Open-Source <span class="fragment highlight-blue">frei verfügbar</span>.
+							<li>Der Quellcode des Systems kann <span class="fragment highlight-blue">frei heruntergeladen</span> und nach <span class="fragment highlight-blue">Belieben abgeändert</span> werden.
+						</ul> 
+					</span>
+				</section>
+	
+				<section>
+					<h2>Wo wird Linux verwendet?</h2>
+					<ul>
+						<li class="fragment fade-in-then-semi-out">Personal Computer
+						<li class="fragment fade-in-then-semi-out">Alte Hardware / Tablets / Router 
+						<li class="fragment fade-in-then-semi-out">Grossrechner 
+						<li class="fragment fade-in-then-semi-out">Datenbankserver, Virtualisierung
+						<li class="fragment fade-in-then-semi-out">Webserver, Mailserver, Fileserver
+						<li class="fragment fade-in-then-semi-out">Das Internet 
+						<li class="fragment fade-in-then-semi-out">Android ist im Prinzip eine Linux Distribution !!
+					</ul>
+				</section>
+				<section>
+					<h2>Der Weg zu Linux</h2>
+					<section>
+						<ul>
+							<li>Das GNU-Projekt startete 1984
+							<li>Ziel --> ein freies, UNIX-ähnliches System .
+							<li>Richard M. Stallman, <i>Free Software Foundation</i> FSF 
+							<li><strong>Linux</strong> wurde 1991 von Linus Torvalds begonnen:
+							<ul><li>als Klon des Unix-Kernel.</li></ul>
+							<li>Linux passte gut zum GNU-Project --> GNU/Linux war geboren
+							<li>Mit „Linux“ ist im Sprachgebrauch meist das komplett-Paket gemeint.</li>
+
+						</ul>
+					</section>
+					<section>
+						<h3>Was ist ein Kernel?</h3>
+						Er erledigt elementare Aufgaben wie Speicher- und Prozessverwaltung und die Steuerung der Hardware. Anwenderprogramme müssen sich an den Kernel wenden, wenn sie zum Beispiel auf Dateien auf der Platte zugreifen wollen. 
+					</section>
+				</section>	
+				<section>
+					<h3>Warum ist Linux kostenlos??</h3>
+					<ul>
+						<li>GNU/Linux ist unter der <strong>G</strong>eneral <strong>P</strong>ublic <strong>L</strong>icense „GPL” veröffentlicht:</li>
+						<li class="fragment fade-in-then-semi-out">Jeder darf Linux modifizeren / kopieren / veröffentlichen
+						<li class="fragment fade-in-then-semi-out">solange dies unter den Bedingungen der GPL geschieht</li>
+						<li class="fragment fade-in-then-semi-out">daraus abgeleiteter Code muss inkl. Source Code unter der GPL veröffentlicht werden</li>
+						<li class="fragment">Linux ist frei, im Sinne von <span class="fragment highlight-red">„Freiheit“</span>, nicht „Freibier“</li>
+					</ul>
+					<p><small>https://de.wikipedia.org/wiki/GNU_General_Public_License</small>
+						<aside class="notes">
+							<ul>
+								<li>GNU steht für „GNU is not Unix”
+								<li>GPL -> Richard Stallman </li>
+							</ul>
+						</aside>
+				</section>
+
+				<section>
+					<h3>Wir installieren Linux</h3>
+					<p>Ladies and Gentlemen: Start your Engines</p>
+				</section>
+
+				<section>
+					<section>
+					<h3>Installations Schritte</h3>
+					<ol>
+						<li>USB Stick einstecken</li>
+						<li>Laptop starten</li>
+						<li>BIOS öffnen</li>
+						<li>Boot Device im BIOS wählen</li>
+						<li>Neu starten</li>
+					</ol>
+					</section>
+					<section>
+						<img src="img/inst-boot.png">
+					</section>
+					<section>
+						<img src="img/inst-lang.png">
+					</section>
+					<section>
+						<img src="img/inst-country.png">
+					</section>
+					<section>
+						<img src="img/inst-keyboard.png">
+					</section>
+					<section>
+						<img src="img/inst-rootpw.png">
+
+						<aside class="notes">
+							<ul>
+								<li>administrativer benutzer heisst "root" IMMER
+								<li>passwort aufschreiben!!
+							</ul>
+						</aside>
+					</section>
+					<section>
+						<img src="img/inst-username.png">
+					</section>
+					<section>
+						<img src="img/inst-partman.png">
+
+						<aside class="notes">
+							<ul>
+								<li>swap 2GB
+								<li>rest alles
+							</ul>
+						</aside>
+					</section>
+					
+					<section>
+						<img src="img/inst-partman-disk.png">
+					</section>
+					<section>
+						<img src="img/inst-autopartman-mode.png">
+					</section>
+					<section>
+						<img src="img/inst-partman-validation.png">
+					</section>
+					<section>
+						<img src="img/inst-basesystem.png">
+					</section>
+					<section>
+						<img src="img/inst-mirror.png">
+					</section>
+					<section>
+						<img src="img/inst-tasksel.png">
+						<aside class="notes">
+							Gnome mitnehmen
+						</aside>
+					</section>
+					<section>
+						<img src="img/inst-gdm.png">
+					</section>
+				</section>
+
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h2>Gnome3</h2>
+					<img src="img/desktop-screenshot.png">
+				</section>
+				<section>
+					<p>Tastaturkürzel</p>
+					<table>
+						<thead>
+							<tr>
+								<th>Kürzel</th>
+								<th>Zweck</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Win-Taste</td>
+								<td>Exposé</td>
+							</tr>
+							<tr>
+								<td>ALT + F2</td>
+								<td>Befehl ausführen</td>
+							</tr>
+							<tr>
+								<td>ALT + Tab</td>
+								<td>Programm-Wechsler</td>
+							</tr>
+							<tr>
+								<td>STRG + ALT + Pfeil</td>
+								<td>Arbeitsfläche wechseln</td>
+							</tr>
+							<tr>
+								<td>STRG + ALT + SHIFT + Pfeil</td>
+								<td>Fenster in Arbeitsfläche verschieben</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+			
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
