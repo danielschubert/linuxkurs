@@ -6,7 +6,7 @@
 
 		<title>Einführung in Linux</title>
 
-		<meta name="description" content="Oder: wie ich lernte ">
+		<meta name="description" content="YALC - Yet Another Linux Course ">
 		<meta name="author" content="Daniel Schubert">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,6 +16,8 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+		
+		<link rel="icon" href="img/openlogo-nd-25.png" type="img/png">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -40,130 +42,384 @@
 					<h1>LINUX</h1>
 					<h3>Das universelle Betriebssystem</h3>
 					<p>Eine Einführung - Teil 2
-					<p>
-						<small>Deutsche Angestellten Akademie</small>
-					</p>
-
+					<p> <small>Deutsche Angestellten Akademie</small> </p>
 				</section>
+
 				<section>
+					<section><h3>Weitere Desktop Systeme</h3>
+
+
+
 					<aside class="notes">
-						Frage: Fragen zur letzten Stunde?
+						<ul>
+							<li>X window - X11</li>
+							
+						</ul>
 					</aside>
-					<h3>Was ist eine Distribution??</h3>
-						<ul>
-							<li class="fragment">Zusammenstellung von GNU/Linux mit:</li>
-							<li class="fragment fade-in-then-semi-out">WindowManger: Gnome / KDE / Xfce / Budgie etc.. </li>
-							<li class="fragment fade-in-then-semi-out">Software: LibreOffice, Firefox, Thunderbird, Gimp....</li>
-							<li class="fragment">es gibt viele, sehr viele Distributionen: Debian, Ubuntu, SuSE, Red Hat, Mint, Fedora, Gentoo, Arch ......
-						</ul>
-						<div class="fragment" style="display: flex;align-items: center">
-							<img  width="" height="238" data-src="img/linuxlogocollage.png" alt="Linux Distribution Logos" />
-							<small>mehr Distris:: https://distrowatch.com</small>
-						</div>
-				</section>
-			
-			
-				<section>
-					
-					<h2>Debian</h2>
-					<figure>
-					<figcaption>Organigramm des Debian Projekts </figcaption>
-						<img style="width:70%;" data-src="img/organigram/de/organisation.svg">
-						<small>( Quelle : Linux-Grundlagen für Anwender und Administratoren, www.tuxacademy.org )</small>
-					</figure>
-				</section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Debian</h2>
-						<ul>
-							<li>zusammengestellt aus Software unter der GNU General Public License
-							<li>sehr populär als OS für Server
-							<li>sehr solide Distribution -> wird als Basis für viele and. Distributionen verwendet: zb Ubuntu
-						</ul>
+
 					</section>
 					<section>
-						<h2>Debian Features</h2>
-						<p>
+						xfce 
+						<figure>	<img style="max-height: 25vw" src="img/Xfce_4.12_on_Fedora_22.png"><figcaption>zB xubuntu</figcaption></figure>
+						<aside class="notes">
+							<ul>
+								<li>Windows XP Ähnlich</li>
+								<li>rechts oben START</li>
+								<li>Ressourcen Sparsam</li>
+								<li>alte hardware</li>
+								<li>XUBUNTU</li>
+							</ul>
+						</aside>
+					</section>
+					<section>
+						KDE
+						<figure><img style="max-height: 25vw" src="img/linux-mint-18.1-kde-screenshot-2.png"><figcaption>zB kubuntu / SUSE</figcaption></figure>
+						<aside class="notes">
+							<ul>
+								<li>Sehr umfangreich konfigurierbar</li>
+								<li>Modern</li>
+								<li>vlcht mit WIn7 vergleichbar</li>
+								<li>KUBUNTU</li>
+							</ul>
+						</aside>
+					</section>
+					<section>
+						Pantheon
+						<figure><img style="max-height: 25vw" src="img/Elementary_OS_0.3.1.png"><figcaption>elementaryOS</figcaption></figure>
+						<aside class="notes">
+							<ul>
+								<li>Modern</li>
+								<li>die stylischte Variante</li>
+								<li>Ubuntu Deriv</li>
+							</ul>
+						</aside>
+					</section>
+					<section>
+						i3wm / awesome
+						<figure><img style="max-height: 25vw" src="img/d1mscg9xqj7z.png"><figcaption>tiling window managers</figcaption></figure>
+
+						<aside class="notes">
+							<ul>
+								<li>tiling window manager</li>
+								<li>komplett per tastatur steuerbar</li>
+								<li>schnell</li>
+							</ul>
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<h3>Wichtige „Freie“ Programme</h3>
+					
+					<ul>
+						<li class="fragment ">LibreOffice</li>
+						<li class="fragment ">Thunderbird</li>
+						<li class="fragment ">Firefox / Chromium</li>
+						<li class="fragment ">GIMP</li>
+						<li class="fragment ">InkScape - Vector Grafik</li>
+						<li class="fragment ">ImageMagick - Bildmanipulation</li>
+						<li class="fragment ">Blender - 3D Rendering</li>
+						<li class="fragment ">VLC</li>
+						<li class="fragment ">mplayer</li>
+					</ul>
+
+					<aside class="notes">
 						<ul>
-							<li>52000+ Pakete freier Software</li>
-							<li>diverse Installations Images zum Download</li>
-							<li>Debian lässt sich übers Netzwerk installieren</li>
-							<li>Debian LIVE
+							<li>ImageMagick - scriptbar</li>
+						</ul>
+					</aside>
+
+				</section>
+
+				<section>
+					<h3>Wichtige „Freie“ Dienste</h3>
+					<ul>
+						<li class="fragment ">Webserver : Apache / Nginx</li>
+						<li class="fragment ">Datenbanken: MySql / PostgreSql / MariaDB</li>
+						<li class="fragment ">Email: Postfix / Sendmail </li>
+						<li class="fragment ">Fileserver: Samba</li>
+						<li class="fragment ">BIND / DNSmasq</li>
+					</ul>
+
+					<aside class="notes">
+						<ul>
+							<li>Samba: Nachbau von Windows SMB -> Kompatibel</li>
+							<li>Samba: läuft auf meinem PI</li>
+							<li>BIND DNSMASQ : ohne die kein internet denkbar</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					
+					<h3>Basics / Unterschiede zu Windows</h3>	
+						<ul>
+							<li class="fragment ">Verzeichnistrenner : <code>/</code>
+							<li class="fragment">Unterscheidung von gross / klein -Schreibung: Datei.txt ≠ datei.txt
+							<li class="fragment ">Benutzerverzeichnis : <code>/home/username</code>
+							<li class="fragment ">Wurzelverzeichnis „root directory“ :<code>/</code>
+							<li class="fragment">gültige Dateinamen / Pfade:
 								<ul>
-									<li>Ein Live-System kann vom USB-Stick gebootet werden</li>
-									<li>->ausprobieren ohne Installation</li>
+									<li><code>/home/daniel/Dokumente/Wichtig.dez-2018.ods</code></li>
+									<li><code>WichtigerText</code></li>
+									<li><code>dies.darf_Nicht.weg</code></li>
+									<li><code>README</code></li>
 								</ul>
 							</li>
 						</ul>
-					</section>
-					<section>
-						<h2>Debian Features</h2>
-						<h3>Umgebung</h3>
-						<p>
+				</section>
+
+				
+
+				<section>
+					<h3>Basics / Unterschiede zu Windows</h3>	
+					<ul>
+						<li class="fragment ">versteckte Datei/Ordner beginnt mit . : <code>.config</code> </li>
+						<li class="fragment ">Datei-Endungen nicht vorgeschrieben</li>
+						<li class="fragment ">Keine Laufwerksbuchstaben</li>
+						<li class="fragment ">Laufwerke ( DVD, USB etc ) werden im Verzeichnisbaum „eingehängt” : mount</li>
+					</ul>
+				</section>			
+
+				<section>
+					<h3>Alles ist eine Datei !</h3>
+					<li class="fragment "><strong>Verzeichnisse</strong>   
+					<li class="fragment "><strong>Symbolische Links</strong> ähnlich zu »Verknüpfungen« unter Windows.
+					<li class="fragment "><strong>Gerätedateien</strong> (engl. devices): Schnittstellen zu beliebigen Geräten wie Laufwerken. <code>/dev/fd0</code>   ist das erste Diskettenlaufwerk.
+				</section>
+				
+				<section>
+					<figure><img src="img/hN4lt.jpg"></figure>
+				</section>	
+				
+				<section>
+					<h3>Übungen</h3>
+					<ol>
+						<li>Wie werden versteckte Dateien Sichtbar?</li>
+						<li>Einbinden eines USB Stick</li>
+						<li class="fragment ">Installation von XFCE</li>
+						<li class="fragment ">Wechsel der Desktop Umgebung zu xfce</li>
+					</ol>
+
+
+					<aside class="notes">
 						<ul>
-							
-							<li>GNOME ( default ), KDE Plasma, Xfce and LXDE</li>
-							</li>
-							<li><strong>C</strong>ommand <strong>L</strong>ine <strong>I</strong>nterface ( die <i>Shell</i> )</li>
+							<li>X Window System  X11 </li>
+							<li>Benennung mit G und K und X </li>
 						</ul>
-						<p>
-						<ul>
-							<li>Browser: Firefox, Chrome</li>
-							<li>Email: Thunderbird</li>
-							<li>Office: Open- / Libre-Office</li>
-							<li>Skype</li>
-							<li>etc pp</li>
-						</ul>
-						
-					</section>
+					</aside>
 				</section>
 
 				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Gnome3</h2>
-					<img src="img/desktop-screenshot.png">
+					<h3>Paketverwaltung</h3>
 				</section>
-				
-				<section>
-						<p>Aufgaben:
-						<ol>
-							<li>Netzwerkeinstellungen vornehmen</li>
-							<li>Bildschirmauflösung einstellen</li>
-							<li>Theme einstellen</li>
-						</ol>
-				</section>
-				
 
 				<section>
-					<h2>Die Paketverwaltung</h2>
-					<p>Programme installieren
+					
+					<h3>Debian Versions-Bezeichungen</h3>
+
 					<ul>
-						<li>Linux Programme werden aus sog. Repositories bezogen</li>
-						<li>Synaptic <ul><li>greift auf diese Repos zu</li>
-						<li>kümmert sich um die Installation der Software-Pakete und ihrer Abhängigkeiten</li></ul>
-						<li>Datei Endung für Debian Pakete ist *.deb</li>
+						<li class="fragment">4 Stränge, benannt nach Figuren aus <i>Toy Story</i></li>
+						<li class="fragment">Testing ( Buster - wird Debian 10)</li>
+						<li class="fragment">Unstable ( heisst immer Sid ) </li>
+						<li class="fragment">Stable ( stretch - Debian 9 )</li>
+						<li class="fragment">Oldstable ( Jessie - Debian 8 )</li>
 					</ul>
 				</section>
+				<section>
+					<h3>Programme zum Paketmanagement</h3>
+					<ul>
+						<li class="fragment">synaptic - point and click</li>
+						<li class="fragment">apt-get - kann Abhängigkeiten selbständig auflösen</li>
+						<li class="fragment">apt - das hübschere apt-get  </li>
+						<li class="fragment">dpkg - low level paket management</li>
+
+					</ul>
 
 				
-				<section>
-					<h2>Software installieren</h2>
-					<p>Aufgaben:
-					<ol>
-						<li>Starten Sie synaptic
-						<li>Update / Upgrade des Systems</li>
-						<li>Installieren Sie
-							<ul>
-								<li>Gimp</li>
-								<li>VLC</li>
-								<li>ssh server</li>
-								<li>VIM</li>
-							</ul>
-						</li>
-						<li>Deinstallieren Sie Gimp</li>
-					</ol>
+					
 				</section>
+
+				<section>
+					<h3>apt</h3>
+
+					<table style="font-size: .5em"><tbody><tr><td> <code class="notranslate">update</code> </td><td> Neueinlesen der Paketlisten  </td></tr><tr><td> <code class="notranslate">upgrade</code> </td><td> Installierte Pakete wenn möglich auf eine verbesserte Version aktualisieren. Um geänderte Abhängigkeiten zu erfüllen, werden ge­ge­be­nen­falls auch neue Pakete installiert. </td></tr><tr><td> <code class="notranslate">full-upgrade</code> </td><td> Wie <code class="notranslate">upgrade</code>, nur können bei dem Vorgang auch Pakete entfernt werden. Alternativ kann statt <code class="notranslate">full-upgrade</code> auch der Befehl <code class="notranslate">dist-upgrade</code> verwendet werden. Das Ergebnis ist identisch, allerdings ist <code class="notranslate">dist-upgrade</code> in der Hilfe und der Man-Page von <code class="notranslate">apt</code> nicht dokumentiert. </td></tr><tr><td> <code class="notranslate">install PAKETNAME</code> </td><td> installiert das Paket <code class="notranslate">PAKETNAME</code> </td></tr><tr><td> <code class="notranslate">install /PFAD/ZUM/PAKET</code> </td><td> installiert ein lokales Paket und dessen Abhängigkeiten  </td></tr><tr><td> <code class="notranslate">remove PAKETNAME</code> </td><td> deinstalliert das Paket <code class="notranslate">PAKETNAME</code> </td></tr><tr><td> <code class="notranslate">purge PAKETNAME</code> </td><td> wie <code class="notranslate">remove</code>, es werden aber zusätzlich auch alle Konfigurationsdateien gelöscht </td></tr><tr><td> <code class="notranslate">autoremove</code> </td><td> deinstalliert alle automatisch installierten Pakete, die nicht mehr benötigt werden und keine Abhängigkeiten mehr zu anderen Paketen haben </td></tr></tbody></table>
+
+					<p><small>Quelle: https://wiki.ubuntuusers.de/apt/apt/</small> </p>
+
+
+				</section>
+				<section>
+					<h3>Andere Distros</h3>
+					<ul>
+						<li>RedHat / CentOs : rpm ( *.rpm )</li>
+						<li>YUM</li>
+						<li>arch: pacman ( *.pkg.tar.xz )</li>
+					</ul>
+					<p class="fragment">Kovertierung möglich mit <span style="color: green">alien</span>
+
+					<div class="fragment grow highlight-red">NICHT MISCHEN!!</div>
+
+				</section>
+				<section>
+					<h3>Nachteile:</h3>
+					<ul>
+						<li>Häufige Updates</li>
+						<li>grosse Downlods bei Updates</li>
+						<li>ältere Distris manchmal nicht mit neuen Programmen kompatibel</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Jetzt Neu!</h3>
+					<ul>
+						<li class="fragment">snappy ( ubuntu ) </li>
+						<li class="fragment">flatpack</li>
+						<li class="fragment">Lösen das Problem der unterschiedlichen Abhängigkeiten und Versionen je nach Distro</li>
+					</ul>
+
+					<aside class="notes">
+						<ul>
+							<li>snappy: container mit allem drin</li>
+							<li>flatpack: ähnlich, und open source ;-)</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					Manche Programme sind nicht als Paket verfügbar. Installation von Hand möglich.
+					
+					<pre style="background-color:#000">programm.tar.gz</pre>
+
+					<ul>
+						<li class="fragment ">-> tar : tape archive</li>
+						<li class="fragment ">-> gz :  zip  ( gzip )</li>
+						<li class="fragment ">gezippter container</li>
+						<li class="fragment ">nachteil: umgeht Paketverwaltung</li>
+					</ul>
+ 				</section>
+
+				<section>
+					<section>
+						<h3>Übungen</h3>
+
+						<p> Im Terminal 
+
+						<ol>
+							<li>Update des Systems mit apt</li>
+							<li>Upgrade des Systems mit apt</li>
+							<li>Liste alle installierten Paketen</li>
+							<li>Welches sind die momentan aktiven repositories?</li>
+						</ol>
+
+						<div style="font-size:.8em" class="fragment">
+							<p>Halp!!</p>
+							<ul >
+								<li>sudo apt update</li>
+								<li>sudo apt upgrade</li>
+								<li>apt list</li>
+								<li>dpkg --list</li>
+								<li>less /etc/apt/source.list</li>
+							</ul>
+						</div>
+					</section>
+
+					<section>
+							<p>
+					<pre>
+
+deb http://ftp.uni-stuttgart.de/debian/ stretch main contrib non-free
+deb-src http://ftp.uni-stuttgart.de/debian/ stretch main contrib non-free
+
+Types: deb
+URIs: http://ftp.uni-stuttgart.de/debian/
+Suites: stretch
+Components: main contrib non-free</pre>
+
+					</section>
+				</section>
+
+
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h1>Das Hilfesystem</h1>
+				</section>
+
+				<section>
+					<h3>Wie finde ich Hilfe??</h3>
+					<blockquote>Man muss nicht alles wissen, aber man sollte wissen wo ma  n es nachschlagen kann.</blockquote>
+
+					<ul>
+						<li class="fragment ">Im Internet ;-)</li>
+						<li class="fragment ">www.debian.org/doc/</li>
+						<li class="fragment ">wiki.ubuntuusers.de </li>
+						<li class="fragment ">The Linux Documentaion Project  - http://tldp.org/ </li>
+						<li class="fragment ">&lt;F1&gt;   ( nicht im Terminal ) </li>
+					</ul>
+
+					<p class="fragment fade-right   ">Ausserdem:::</p>
+
+				</section>
+
+				<section>
+					<h3>Die man - Pages</h3>
+					<p > Für (fast) alle Terminal-Programme existiert  eine <br><span class="fragment highlight-green">man - Page</span>
+					</p>
+
+					 <pre>man sudo  </pre>
+				</section>
+
+				<section style="font-size: .8em">
+					
+					<p>In Linux-Literatur oder auch in den Manpages selbst ist häufig eine man-Nummer hinter dem Kommando angegeben, z.B. less(1), damit der man-Text zielgenau aufgerufen werden kann. <br>Es gibt die Themenbereiche 1 bis 9 und n.
+					<ol style="font-size: .6em">
+						<li>Benutzerkommandos</li>
+						<li>Systemaufruf</li>
+						<li>Funktionen der Programmiersprache C</li>
+						<li>Dateiformate</li>
+						<li>Konfigurationsdateien</li>
+						<li>Spiele</li>
+						<li>Diverses</li>
+						<li>Kommandos zur Systemadministrati</li>
+						<li>Kernelfunktionen</li>
+					</ol>
+					
+					<p>Die Eingabe für den Aufruf von less mit dem Thema (1) sieht so aus:
+
+						<pre>man 1 less </pre>
+				</section>
+
+				<section>
+					
+					<table style="font-size: .5em"><tr class="titel"><td colspan="4">Die Tastenkürzel</td></tr><tr class="kopf"><td>Taste</td><td>Bedeutung</td><td>Taste</td><td>Bedeutung</td></tr><tr><td>
+					<span class="key">↑</span>  oder 
+					<span class="key">Y</span> </td><td>im Text nach oben scrollen</td><td>
+					<span class="key">↓</span>  oder 
+					<span class="key">E</span> </td><td>im Text nach unten scrollen</td></tr><tr class="highlight"><td>
+					<span class="key">←</span> </td><td>im Text nach links scrollen</td><td>
+					<span class="key">→</span> </td><td>im Text nach rechts scrollen</td></tr><tr><td>
+					<span class="key">Bild ↑</span>  oder 
+					<span class="key">U</span>  oder 
+					<span class="key">B</span> </td><td>im Text seitenweise nach oben scrollen</td><td>
+					<span class="key">Bild ↓</span>  oder 
+					<span class="key">D</span>  oder 
+					<span class="key">F</span> </td><td>im Text seitenweise nach unten scrollen</td></tr><tr class="highlight"><td>
+					<span class="key">G</span> </td><td>zum Textanfang springen</td><td>
+					<span class="key">⇧</span>  + 
+					<span class="key">G</span> </td><td>zum Textende springen</td></tr><tr><td>
+					<span class="key">⇧</span>  + 
+					<span class="key">7</span> </td><td>in den Suchmodus &quot;Vorwärtssuche&quot;</td><td>
+					<span class="key">⇧</span>  + 
+					<span class="key">ß</span> </td><td>in den Suchmodus &quot;Rückwärtssuche&quot;</td></tr><tr class="highlight"><td>
+					<span class="key">N</span> </td><td>zum nächsten Suchresultat springen</td><td>
+					<span class="key">⇧</span>  + 
+					<span class="key">N</span> </td><td>zum vorherigen Suchresultat springen</td></tr><tr><td>
+					<span class="key">H</span> </td><td>Hilfetext mit vielen zusätzlichen Tasten und Optionen</td><td>
+					<span class="key">Q</span> </td><td>Beenden</td></tr></table>
+
+					<p><small>https://wiki.ubuntuusers.de/man/</small></p>
+				</section>
+
+				
 				
 				<section>
 					<h2>sudo / root</h2>
@@ -173,299 +429,8 @@
 
 				
 
+
 				
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p>
-							<span style="display: inline-block;" class="fragment fade-right">fade-right, </span>
-							<span style="display: inline-block;" class="fragment fade-up">up, </span>
-							<span style="display: inline-block;" class="fragment fade-down">down, </span>
-							<span style="display: inline-block;" class="fragment fade-left">left</span>
-						</p>
-						<p class="fragment fade-in-then-out">fade-in-then-out</p>
-						<p class="fragment fade-in-then-semi-out">fade-in-then-semi-out</p>
-						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
-					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="https://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
-				</section>
 
 			</div>
 
