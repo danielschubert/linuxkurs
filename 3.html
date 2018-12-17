@@ -1,12 +1,9 @@
 <!doctype html>
-<html lang="de">
-
+<html lang="de"> 
 	<head>
-		<meta charset="utf-8">
-
 		<title>Einführung in Linux</title>
 
-		<meta name="description" content="Oder: wie ich lernte ">
+		<meta name="description" content="YALC - Yet Another Linux Course ">
 		<meta name="author" content="Daniel Schubert">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,6 +13,8 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+		
+		<link rel="icon" href="img/openlogo-nd-25.png" type="img/png">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -48,67 +47,319 @@
 						Frage: Fragen zur letzten Stunde?
 					</aside>
 				</section>
-				
 				<section>
-					Grundlegendes zum Systemaufbau
+					<h3>sudo</h3>
+					<p class="fragment">als root: <code>adduser USER sudo</code></p>
+					<p class="fragment">Datei /etc/sudoers</p>
+					<p class="fragment">zu editieren mit visudo</p>
+					<p class="fragment"><code>daniel ALL=(ALL) ALL</code>
+
+				</section>
+				
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h3>kurze Wiederholung</h3>
 				</section>
 
-				<section>Architektur des Linux Systems</section>
+				<section>
+          <ul>
+            <li> In Dateinamen dürfen fast alle möglichen Zeichen auftauchen. Man sollte sich auf Buchstaben, Ziffern und einige Sonderzeichen beschränken.
+            <li class="fragment">Linux unterscheidet Groß- und Kleinschreibung in Dateinamen.
+            <li class="fragment"> Absolute Pfade beginnen immer mit einem Schrägstrich und benennen alle Verzeichnisse vom Wurzelverzeichnis bis zum betreffenden Verzeichnis bzw. der Datei.
+            <li class="fragment">Relative Pfade beziehen sich auf das »aktuelle Verzeichnis«.
+          </ul>
+			</section>
+			<section>
+          <ul>
+            <li>Aboluter Pfad: <code> /home/daniel/Dokumente </code></li> 
+            <li class="fragment">Relativer Pfad: <code> Domukente/rechnungen/2018 </code> </li> 
+            <li class="fragment"> <code>cd</code> ändert das aktuelle Verzeichnis der Shell, <code>pwd</code> zeigt den Pfad des aktuellen.</li> 
+            <li class="fragment"><code>cd .. </code> wechselt 1 Verz. höher</ li>
+            <li class="fragment"><code>cd ../.. </code> wechselt 2 Verz. höher</ li>
+            <li class="fragment"><code>cd ../../etc/nginx</code></li>
+            <li class="fragment"><code>cd / </code> -> Wurzelverzeichnis</li>
+            <li class="fragment"><code>cd </code> oder <code> cd ~ </code> -> home </li>
+             <li class="fragment"><span style="color: orange">Aufgabe:</span>Erstellt die Verz. ~/hase/fuchs. Erstellt die Datei ~/hase/fuchs/test.txt. Kopiert die Datei test.txt nach ~. </li>
+			</ul>
+		</section>
+		<section>
+          <ul>
+            <li><code>ls</code> gibt Informationen über Dateien und Verzeichnisse aus.</li> 
+            <li class="fragment">Mit <code>mkdir</code> und <code>rmdir</code> kann man Verzeichnisse anlegen oder entfernen.
+            <li class="fragment">cp, mv, rm - kopieren, verschieben, löschen 
+            <li class="fragment">Mit <code>ln</code> kann man »harte« und »symbolische« Links anlegen.
+            <li class="fragment"><code>more</code> und <code>less</code>  dienen zum seitenweisen Anzeigen von Dateien auf dem Terminal.
+          </ul>
+				</section>
+
+        <section>
+          <ul>
+            <li><code>find</code> sucht nach Dateien oder Verzeichnissen, die bestimmte Kriterien erfüllen.</li>
+            <li class="fragment"><code>locate</code> findet Dateien nach Name</li>
+            <li class="fragment">es gibt externe und interne ( builtin )Kommandos</li>
+            <li class="fragment">interne sind zb. cd und echo</li>
+            <li class="fragment">externe sind zb alles in <code>/bin </code></li>
+            <li class="fragment"><code>type</code> gibt Auskunft darüber </li> 
+            <li class="fragment"><span style="color: orange">Aufgabe:</span> welcher Art sind <p><code>alias ,echo, rm, test?</code> </li>
+          </ul> 
+        </section>
+
+        <section>
+        	<div>https://www.shellbefehle.de/befehle/</div>
+        </section>
+            
+        <section>
+          <ul>
+           <li>Sonderzeichen: </li> 
+						<li><pre><code class="hljs" data-trim contenteditable>
+$&;(){}[]*?!<>« </code> </pre> 
+						</li> 
+            <li class="fragment"><code>touch neue datei </code> - erzeugt 2 Dateien</li> 
+            <li class="fragment"><code>touch 'neue datei'</code>  - erzeugt 1 Datei</li>
+            <li class="fragment"><code> > </code> leitet Ausgabe um
+          </ul> 
+        </section> 
+        <section>
+        	<h3>bash Shortcuts</h3>
+
+        	<table style="font-size: .4em">
+        	<thead>
+        	<tr>
+        	<th>Shortcut</th>
+        	<th>Beschreibung</th>
+        	</tr>
+        	</thead>
+        	<tbody>
+        	<tr style="color:red">
+        	<td>TAB</td>
+        	<td>Vervollständige das angefangene Wort</td>
+        	</tr>
+        	<tr style="color:red">
+        	<td>TAB TAB</td>
+        	<td>Zeige Liste der Vervollständigungs-möglickeiten</td>
+        	</tr>
+
+        	<tr style="color:red">
+        	<td>Ctrl + c</td>
+        	<td>Aktuell laufendes Kommando abbrechen</td>
+        	</tr>
+        	<tr style="color:red">
+        	<td>Ctrl + z</td>
+        	<td>Aktuelles Kommando stoppen</td>
+        	</tr>
+
+        	<tr>
+        	<td>Ctrl + a</td>
+        	<td>Gehe zum Anfang der Kommandozeile</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + e</td>
+        	<td>Gehe zum Ende der Kommandozeile</td>
+        	</tr>
+        	
+        	<tr style="color:red">
+        	<td>Ctrl + w</td>
+        	<td>Lösche vom Cursor zum Anfang des Wortes (das aktuelle Wort löschen)</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + y</td>
+        	<td>Füge ein gelöschtes wort wieder ein, welches mit einem der shortcuts zum löschen gelöscht wurde</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + xx</td>
+        	<td>Bewege dich zwischen Anfang der Kommandozeile und der aktuellen position des Cursor (hin und zurück)</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + f</td>
+        	<td>Ein Zeichen nach vorne</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + b</td>
+        	<td>Ein Zeichen zurück</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + d</td>
+        	<td>Löscht das Zeichen unter dem Cursor</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + h</td>
+        	<td>Löscht das Zeichen vor dem Cursor</td>
+        	</tr>
+        	<tr style="color:red">
+        	<td>Ctrl + r</td>
+        	<td>Durchsucht die History rückwärts</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + g</td>
+        	<td>Den History Suchmodus wieder verlassen</td>
+        	</tr>
+        	
+        	<tr>
+        	<td>Ctrl + l</td>
+        	<td>Lösche das Kommandozeilenfenster</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + s</td>
+        	<td>Stopt den Output auf die Kommandozeile (Bei langen Kommandos mit viel Output)</td>
+        	</tr>
+        	<tr>
+        	<td>Ctrl + q</td>
+        	<td>Stellt denn Output in die Kommandozeile wieder her (welcher vorher mit „Ctl + s“ gestoppt wurde)</td>
+        	</tr>
+        	
+        	</tbody>
+        	</table>
+
+        	<aside class="notes">
+							sind emacs kommandos shortcuts
+						</aside>
+        	
+        </section>
+				
+		<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+			<h2>bash Konfiguration</h2>
+		</section>
+
+		
+		<section>
+			<p>aus der bash man-page:
+			<pre style="font-size: .4em">
+FILES
+   /bin/bash
+          The bash executable
+   /etc/profile
+          The systemwide initialization file, executed for login shells
+   /etc/bash.bashrc
+          The systemwide per-interactive-shell startup file
+   /etc/bash.bash.logout
+          The systemwide login shell cleanup file, executed when a login shell exits
+   ~/.bash_profile
+          The personal initialization file, executed for login shells
+   ~/.bashrc
+          The individual per-interactive-shell startup file
+   ~/.bash_logout
+          The individual login shell cleanup file, executed when a login shell exits
+   ~/.inputrc
+              Individual readline initialization file
+</pre>
+		</section>
+		<section>
+				<h3>für den Alltag wichtige config files </h3>
+				<ul>
+					<li class="fragment">.bashrc - Konfiguration</li>
+					<li class="fragment">.bash_aliases - Kommando Aliase</li>
+					<li class="fragment">.bash_history - Kommando Historie</li>
+				</ul>
+
+				<aside class="notes">
+					<ul>
+						<li>kurze erklärung</li>
+					</ul>
+				</aside>
+				</section>
+				<section>
+					<h3 style="text-transform: none">.bashrc</h3>
+					<pre style="font-size: .4em"><code class="hljs" data-trim contenteditable>
+# zusätzlicher pfad für die auto-vervollständigung
+export CDPATH=$CDPATH:/home/dany/projekte
+
+# maximale länge der history
+HISTSIZE=1000
+HISTFILESIZE=2000
+HISTTIMEFORMAT="%d-%m-%Y %H:%M "
+
+# promt formatierung
+PS1='\[\033[38m\]\u@\h \[\033[94m\]\W\[\033[95m\]$(__git_ps1)\[\033[37m\]$\[\033[00m\] '
+					</code></pre>
+					<p><code>export</code> gibt alle gesetzten bash Variablen aus
+					<p><code>export $VARIABLE</code> setzt die Bash Variable für die laufende Sitzung
+				</section>
+
+				<section>
+					<h3 style="text-transform: none">.bash_aliases</h3>
+					<pre style="font-size: .4em"><code class="hljs" data-trim contenteditable>
+# ls Varianten
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+#df in lesbar
+alias df='df -h'
+
+# Oft gebrauchte Pfade
+alias o='cd ~/ownCloud/'
+alias p='cd ~/projekte'
+
+# stopwatch
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+# create a dir with date from today
+alias mkdd='mkdir $(date +%Y%m%d)'
+							</code></pre>
+				</section>
+
+				<section>
+					<div><span style="color: orange">Aufgabe:</span> legt ein Alias an, das per mkdir ein Verzeichnis mit evtl. Eltern anlegt;<br> Hinweis: Datei .bash_aliases bearbeiten
+
+					<p class="fragment"><code>alias mp='mkdir -p'</code>
+					<p class="fragment"><span style="color: orange">Aufgabe: </span> Macht die Schriftfarbe des Prompt blau
+					<p class="fragment"> Hilfe: 	<a href="https://wiki.archlinux.de/title/Bash-Prompt_anpassen">https://wiki.archlinux.de/title/Bash-Prompt_anpassen </a>	
+					<p class="fragment"><code>PS1="\[\033[34m\]\u@\h:\w$"</code>
+				</section>
 
 				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Das Dateisystem</h2>
-					bild vom verzeichnisbaum
-				</section>
+					<h3>stdin, stdout, stderr - Kanäle der Bash</h3>
 
-				<section>
-					<aside class="notes">
-						Frage: Fragen zur letzten Stunde?
-					</aside>
-					<h3>Basics / Unterschiede zu Windows</h3>	
-						<ul>
-							<li>/home/daniel/Dokumente/Wichtig.dez-2018.ods</li>
-							<li class="fragment ">Verzeichnistrenner ist „/“ 
-							<li class="fragment">Unterscheidung von gross / klein Schreibung: Datei.txt ≠ datei.txt
-							<li class="fragment">gültige Dateinamen:
-								<ul>
-									<li>datei0815.txt</li>
-									<li>WichtigerText</li>
-									<li>dies.darf_Nicht.weg</li>
-									<li>README</li>
-								</ul>
-							</li>
-						</ul>
-				</section>
-
-				<section>
-					<h3>Basics / Unterschiede zu Windows</h3>	
 					<ul>
-						<li>Datei-Endungen nicht vorgeschrieben</li>
-						<li>Keine Laufwerksbuchstaben</li>
-						<li>Laufwerke ( DVD, USB etc ) werden im Verzeichnisbaum „eingehängt”</li>
-						<li class="fragment ">Wurzelverzeichnis heisst „root directory“ oder „/“
-						<li class="fragment ">Benutzerverzeichnis ist „/home/username“
+						<li class="fragment">Standardeingabekanal <em>stdin</em>, dieser hat die Nummer 0 (null) -> Tastatur</li>
+						<li class="fragment">Standardausgabekanal <em>stdout</em>, dieser hat die Nummer 1 (eins) -> Bildschirm</li>
+						<li class="fragment">Standardfehlerkanal <em>stderr</em>, dieser hat die Nummer 2 (zwei). -> Bildschirm</li>
 					</ul>
-				</section>			
-
+				</section>
 				<section>
-					<h3>Alles ist eine Datei</h3>
-					<li><strong>Verzeichnisse</strong> (engl. directories)  »Ordner«
-					<li><strong>Symbolische Links</strong> ähnlich zu »Verknüpfungen« unter Windows.
-					<li><strong>Gerätedateien</strong> (engl. devices): Schnittstellen zu beliebigen Geräten wie Laufwerken. Die Datei /dev/fd0 ist das erste Diskettenlaufwerk.
-							<aside class="notes">
-						Frage: Fragen zur letzten Stunde?
-					</aside>
+					<p>Ausgabeumleitung</p>
+					<code>ls -la > inhalt.txt</code>
+					<p  class="fragment highlight-red">Vorsicht! Überschreibt vorh. Datei inhalt.txt!!</p>
+					<p  class="fragment">Zum anhängen: <code>ls -la >> inhalt.txt</code></p>
 				</section>
 
 				<section>
-					<h3>Spezielle Dateitypen</h3>
-					<li><strong>FIFOs</strong> Oft auch named pipes genannt. Direkte Kommunikation zwischen Programmen ohne Verwendung von Zwischendateien 
-					<li><strong>Unix-Domain-Sockets</strong> Ähnlich wie FIFOs Mittel zur Interprozesskommunikation. Quasi locales TCP/IP
+					<p>Umleitung stderr</p>
+					<code>ls -la /home/user 2> fehler.txt</code>
+					<p> <code class="fragment">ls -la > verzeichnis.txt 2> fehler.txt </code>
+					<p> <code class="fragment">ls -la > gemeinsam.txt 2>&1 </code>
 				</section>
 
-				<section>syslog</section>
+				<section>
+					<p>Umleitung stdin</p>
+					<code>tr -d '0-9' < datei.txt </code>
+				</section>
 
+				<section>
+					<h3>Der Pipe Operator</h3>
+					<p> <code class="fragment">ps ax | sort -nr </code>
+					<p> <code class="fragment">dmesg | grep -n USB  </code>
+					<p> <code class="fragment">dmesg | grep -n USB | tail  </code>
+
+
+				</section>
+				<section>
+					<p><code style="font-size: .5em">dmesg > alle-meldungen.log</code>
+					<p><code style="font-size: .5em">grep usb < alle-meldungen.log | tail > usb-meldungen.log </code>
+				</section>
+
+				<section>
+
+					<p><code style="font-size: .5em">dmesg > alle-meldungen.log</code></p>
+					<p><code style="font-size: .5em">grep usb < alle-meldungen.log | tail > usb-meldungen.log </code></p>
+					<p><code style="font-size: .5em">find . -type f -mtime +1 -name "*.log" <span class="fragment highlight-green">-exec zip -m {}.zip {} \; </span><span class="fragment highlight-red"> >/dev/null</span> &</code></p>
+
+				</section>
+				
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h3>
+						Reguläre Ausdrücke	
+					</h3>
+				</section>
 			</div>
 
 		</div>

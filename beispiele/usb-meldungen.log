@@ -1,0 +1,10 @@
+[    5.328340] usbcore: registered new interface driver snd-usb-audio
+[    5.424330] input: Logitech MX Ergo as /devices/pci0000:00/0000:00:02.0/usb2/2-10/2-10:1.2/0003:046D:C52B.0006/0003:046D:406F.0007/input/input13
+[    5.425022] logitech-hidpp-device 0003:046D:406F.0007: input,hidraw4: USB HID v1.11 Keyboard [Logitech MX Ergo] on usb-0000:00:02.0-10:1
+[11730.912969] usb usb2: root hub lost power or was reset
+[11730.913009] usb usb1: root hub lost power or was reset
+[11731.374991] usb 1-3: reset high-speed USB device number 4 using ehci-pci
+[11731.434994] usb 2-10: reset full-speed USB device number 5 using ohci-pci
+[11731.823005] usb 2-9: reset full-speed USB device number 4 using ohci-pci
+[11732.375288] usb 2-2: reset low-speed USB device number 3 using ohci-pci
+[11733.063086] usb 2-1: reset low-speed USB device number 2 using ohci-pci

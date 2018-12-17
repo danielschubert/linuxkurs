@@ -1,12 +1,9 @@
 <!doctype html>
 <html lang="de">
 
-	<head>
-		<meta charset="utf-8">
+		<title>Einführung in Linux</title>
 
-		<title>Einführung in Linux - Kapitel 4</title>
-
-		<meta name="description" content="Oder: wie ich lernte ">
+		<meta name="description" content="YALC - Yet Another Linux Course ">
 		<meta name="author" content="Daniel Schubert">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,6 +13,8 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+		
+		<link rel="icon" href="img/openlogo-nd-25.png" type="img/png">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -31,6 +30,7 @@
 
 	</head>
 
+
 	<body>
 		<div class="reveal">
 			<!-- Any section element inside of this container is displayed as a slide -->
@@ -43,59 +43,43 @@
 					<p>
 						<small>Deutsche Angestellten Akademie</small>
 					</p>
+
 					<aside class="notes">
 						Frage: Fragen zur letzten Stunde?
 					</aside>
 				</section>
 				
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h1>Die SHELL</h1>
-
-					Screenshoot Terminal
-				</section>
-
 				<section>
-					<h3>Die Anatomie des SHELL-Prompt</h3>
-
-					<p>
-						<pre class="fragment" style="background-color:#000">daniel@laptop ~$ <span class="fragment">ls</span></pre>
-
-					<p>
-						<span class="fragment">Username</span>
-						<span class="fragment">@Hostname</span>
-						<span class="fragment"> Verzeichnis</span>
-						<span class="fragment">$ Befehl</span>
-					</p>
-
-					<aside class="notes">
-						<ul>
-							<li>Das ist der prompt</li>
-							<li>erkläre Elemente : User - Hostname - Dir - Cursor</li>
-						</ul>
-					</aside>
+					<h2>vim und emacs</h2>
+					<h3>Die mächtigen Unix Editoren</h3>
 				</section>
 
-				<section>Die wichtigsten Befehle</section>
-				<section>Die man Pages</section>
-
-
-				<section>
-					<aside class="notes">
-						Frage: Fragen zur letzten Stunde?
-					</aside>
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h3>vim</h3>
+          <ul>
+            <li class="fragment">ein Editor für die shell </li>
+            <li class="fragment">immer da, oft in der alten Variante „vi“ </li>
+            <li class="fragment">Vi IMproved</li>
+            <li class="fragment">komplett per Kürzel steuerbar </li>
+            <li class="fragment">umfassend anpassbar </li>
+            <li class="fragment">erweiterbar </li>
+            <li class="fragment">syntax highlighting </li>
+            <li class="fragment">vim ist einfach cool ;-)</li>
+          </ul>
+            
 				</section>
 
-				<section>
-					<h2>Debian: Packet und Rpository</h2>
-					<ul>
-						<li>Package management</li>
-						<li>Der Debian-Way zur Software Installatione ist das apt (Advanced Package Management ) -Toolset </li>
-						<li>Die apt tools nutzen die dpkg datenbank um zu erkennen was installiert ist und was fehlt.
-						</li>
-					</ul>
-				</section>
-
-
+        <section>
+          <h3>Die 5 Level eines Vim Magiers</h3>
+          <ul>
+            <li>Level 0: nichts über vim wissen 
+            <li>Level 1: vim basics kennen
+            <li>Level 2: den visual mode kennen
+            <li>Level 3: diverse „motions“ kennen
+            <li>Level 4: den visual mode nicht brauchen
+          </ul>
+        <p>https://danielmiessler.com/study/vim/
+        </section>
 			</div>
 
 		</div>
